@@ -1,0 +1,2 @@
+# leetcode
+all leetcode exercises
