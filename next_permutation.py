@@ -1,5 +1,6 @@
 class Solution:
     """
+    https://en.wikipedia.org/wiki/Permutation#Generation_in_lexicographic_order
     The following algorithm generates the next permutation lexicographically after a given permutation. It changes the given permutation in-place.
 
     Find the largest index k such that a[k] < a[k + 1]. If no such index exists, the permutation is the last permutation.
