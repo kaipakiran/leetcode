@@ -1,19 +1,25 @@
 class Solution:
     def convert(self, s: str, numRows: int):
-        # Convert string to zigzag pattern 
-        # https://stackoverflow.com/questions/6473679/transpose-list-of-lists
-        """P     H 
+        """
+           #Convert string to zigzag pattern 
+           #https://stackoverflow.com/questions/6473679/transpose-list-of-lists
+           input = PAYPALISHIRING
+           output with numRows = 5
+           P     H 
            A   S I
            Y  I  R
            P L   I G
-           A     N  """
-        """P   A   H   N
+           A     N 
+           output with numRows = 3
+           P   A   H   N
            A P L S I I G
-           Y   I   R    """
-        """P     I      N 
+           Y   I   R 
+           output with numRows = 4
+           P     I      N 
            A   L S    I G
            Y A   H  R
-           P     I        """
+           P     I        
+        """
         num_rows = numRows
         string = s
         overall_cols = []
