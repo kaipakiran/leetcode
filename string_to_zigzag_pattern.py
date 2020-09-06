@@ -20,6 +20,7 @@ class Solution:
            Y A   H  R
            P     I        
         """
+        
         num_rows = numRows
         string = s
         overall_cols = []
